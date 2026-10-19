@@ -19,7 +19,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-indigo-600 text-white font-bold flex items-center justify-between p-2 shadow-md">
+          <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-purple-600 to-indigo-600 text-white font-bold flex items-center justify-center shadow-md">
             <span class="text-lg">🎨</span>
           </div>
           <div>
@@ -28,9 +28,9 @@
           </div>
         </div>
         <div class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-600">
+          <a href="#weird-family" class="hover:text-purple-600 transition">The Weird Family</a>
           <a href="#art" class="hover:text-purple-600 transition">Art Gallery</a>
-          <a href="#music" class="hover:text-purple-600 transition">Music & Performances</a>
-          <a href="#about" class="hover:text-purple-600 transition">About Angie</a>
+          <a href="#music" class="hover:text-purple-600 transition">Music</a>
         </div>
       </div>
     </div>
@@ -46,71 +46,117 @@
         Welcome to <span class="bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Angie's World</span>
       </h1>
       <p class="max-w-2xl mx-auto text-lg text-slate-600 mb-8 leading-relaxed">
-        Exploring life through vibrant brushstrokes, classical compositions, and creative expressions. Building a foundation for a lifelong journey in the arts.
+        Exploring creativity through character sculpture, painting, and music.
       </p>
       <div class="flex justify-center gap-4">
-        <a href="#art" class="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-semibold shadow-lg shadow-purple-200 transition">Explore Artwork</a>
-        <a href="#music" class="px-6 py-3 rounded-xl bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 font-semibold shadow-sm transition">Listen to Music</a>
+        <a href="#weird-family" class="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-700 text-white font-semibold shadow-lg shadow-purple-200 transition">Explore "The Weird Family"</a>
       </div>
     </div>
   </header>
 
-  <!-- Art Gallery Section -->
+  <!-- FEATURED SERIES: The Weird Family -->
+  <section id="weird-family" class="py-12 bg-purple-900 text-white rounded-3xl max-w-6xl mx-auto my-8 px-6 sm:px-10 shadow-xl relative overflow-hidden">
+    <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-purple-700/30 rounded-full blur-3xl pointer-events-none"></div>
+    
+    <div class="mb-10 text-center relative z-10">
+      <span class="px-3 py-1 bg-purple-800 text-purple-200 text-xs font-bold rounded-full uppercase tracking-widest">Featured Character Series</span>
+      <h2 class="text-4xl font-extrabold mt-3 tracking-tight">"The Weird Family"</h2>
+      <p class="text-purple-200 mt-2 max-w-2xl mx-auto text-base">
+        An original series of sculpted figures and character studies created by Angie, exploring unique personalities, expressions, and story concepts.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
+      
+      <!-- Character 1 -->
+      <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group hover:border-purple-400 transition">
+        <div class="h-64 bg-purple-800/50 flex items-center justify-center text-5xl font-bold text-purple-300">
+          👾
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Figure #1</span>
+          <h3 class="text-xl font-bold text-white mt-1">Character Name</h3>
+          <p class="text-purple-200 text-sm mt-2 leading-relaxed">
+            Description of character personality, materials, and creation process.
+          </p>
+        </div>
+      </div>
+
+      <!-- Character 2 -->
+      <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group hover:border-purple-400 transition">
+        <div class="h-64 bg-purple-800/50 flex items-center justify-center text-5xl font-bold text-purple-300">
+          🤖
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Figure #2</span>
+          <h3 class="text-xl font-bold text-white mt-1">Character Name</h3>
+          <p class="text-purple-200 text-sm mt-2 leading-relaxed">
+            Description of character personality, materials, and creation process.
+          </p>
+        </div>
+      </div>
+
+      <!-- Character 3 -->
+      <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group hover:border-purple-400 transition">
+        <div class="h-64 bg-purple-800/50 flex items-center justify-center text-5xl font-bold text-purple-300">
+          👻
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Figure #3</span>
+          <h3 class="text-xl font-bold text-white mt-1">Character Name</h3>
+          <p class="text-purple-200 text-sm mt-2 leading-relaxed">
+            Description of character personality, materials, and creation process.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Other Art Gallery -->
   <section id="art" class="py-12 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="mb-8 text-center">
-      <h2 class="text-3xl font-extrabold text-slate-900">Featured Artwork</h2>
-      <p class="text-slate-500 mt-1">Paintings, sketches, and digital art created by Angie</p>
+      <h2 class="text-3xl font-extrabold text-slate-900">Other Artworks</h2>
+      <p class="text-slate-500 mt-1">Paintings, sketches, and studies</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 group hover:shadow-md transition">
-        <div class="h-56 bg-gradient-to-tr from-purple-400 to-indigo-300 flex items-center justify-center text-white text-4xl font-bold">🎨</div>
-        <div class="p-5">
-          <span class="text-xs font-bold text-purple-600 uppercase tracking-wider">Acrylic on Canvas</span>
-          <h3 class="text-lg font-bold text-slate-800 mt-1">Sunset Reflection</h3>
-          <p class="text-slate-500 text-sm mt-1">Exploration of warm gradient tones and natural light.</p>
-        </div>
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-5">
+        <div class="h-48 bg-slate-200 rounded-xl flex items-center justify-center text-3xl">🎨</div>
+        <h3 class="font-bold mt-4 text-slate-800">Sunset Reflection</h3>
+        <p class="text-slate-500 text-xs mt-1">Acrylic on Canvas</p>
       </div>
-      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 group hover:shadow-md transition">
-        <div class="h-56 bg-gradient-to-tr from-blue-400 to-teal-300 flex items-center justify-center text-white text-4xl font-bold">🖼️</div>
-        <div class="p-5">
-          <span class="text-xs font-bold text-teal-600 uppercase tracking-wider">Watercolors</span>
-          <h3 class="text-lg font-bold text-slate-800 mt-1">Coastal Waves</h3>
-          <p class="text-slate-500 text-sm mt-1">A study on fluid movement and coastal scenery.</p>
-        </div>
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-5">
+        <div class="h-48 bg-slate-200 rounded-xl flex items-center justify-center text-3xl">🖼️</div>
+        <h3 class="font-bold mt-4 text-slate-800">Coastal Waves</h3>
+        <p class="text-slate-500 text-xs mt-1">Watercolors</p>
       </div>
-      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 group hover:shadow-md transition">
-        <div class="h-56 bg-gradient-to-tr from-pink-400 to-rose-300 flex items-center justify-center text-white text-4xl font-bold">✏️</div>
-        <div class="p-5">
-          <span class="text-xs font-bold text-rose-600 uppercase tracking-wider">Sketching</span>
-          <h3 class="text-lg font-bold text-slate-800 mt-1">Shaded Still Life</h3>
-          <p class="text-slate-500 text-sm mt-1">Focusing on light source accuracy and perspective shadow.</p>
-        </div>
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-5">
+        <div class="h-48 bg-slate-200 rounded-xl flex items-center justify-center text-3xl">✏️</div>
+        <h3 class="font-bold mt-4 text-slate-800">Shaded Still Life</h3>
+        <p class="text-slate-500 text-xs mt-1">Pencil Sketch</p>
       </div>
     </div>
   </section>
 
   <!-- Music Section -->
-  <section id="music" class="py-12 bg-slate-100/70 border-y border-slate-200/60">
+  <section id="music" class="py-12 bg-slate-100/70 border-t border-slate-200/60">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="mb-8 text-center">
         <h2 class="text-3xl font-extrabold text-slate-900">Music & Performances</h2>
-        <p class="text-slate-500 mt-1">Piano & instrument recitals and practice sessions</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm flex items-center gap-4">
-          <div class="w-14 h-14 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-2xl font-bold flex-shrink-0">🎵</div>
+          <div class="w-12 h-12 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-2xl font-bold flex-shrink-0">🎵</div>
           <div>
-            <span class="text-xs font-bold text-indigo-600 uppercase">Classical Piano</span>
             <h3 class="text-lg font-bold text-slate-800">Sonatina in G Major</h3>
-            <p class="text-slate-500 text-sm">Spring Recital Performance (2026)</p>
+            <p class="text-slate-500 text-sm">Piano Recital</p>
           </div>
         </div>
         <div class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-sm flex items-center gap-4">
-          <div class="w-14 h-14 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-2xl font-bold flex-shrink-0">🎹</div>
+          <div class="w-12 h-12 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-2xl font-bold flex-shrink-0">🎹</div>
           <div>
-            <span class="text-xs font-bold text-purple-600 uppercase">Contemporary Study</span>
             <h3 class="text-lg font-bold text-slate-800">River Flows in You</h3>
-            <p class="text-slate-500 text-sm">Solo Piano Practice Session</p>
+            <p class="text-slate-500 text-sm">Solo Practice</p>
           </div>
         </div>
       </div>
