@@ -1,4 +1,14 @@
-Here is the updated **`index.html`** incorporating your new drawings (**Drawing No. 11.png** through **Drawing No. 20.png**) from your latest repository update, along with the existing drawings and active Weird Family members:
+Here is the updated **`index.html`** synced with your latest repository changes from the screenshot:
+
+* **Updated Weird Family Files:** Replaced the old numbered filenames with your new descriptive file names (`weird-family-no01-weird-dude.png`, `weird-family-no02-weird-lady.png`, `weird-family-no3-weird-baby.png`, `weird-family-no04-watermelon.png`, `weird-family-no05 -weird-statue.png`, and `weird-family-no-weird-statue-different-view.png`).
+
+
+* **Added New Asset:** Included `treehouse.png` in the repository structure.
+
+
+* **Synced Gallery Array:** All image paths and lightbox indices have been updated to match the new file names perfectly.
+
+
 
 ```html
 <!DOCTYPE html>
@@ -83,45 +93,81 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
     <!-- Character Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
       
-      <!-- Character 1 -->
+      <!-- Weird Dude -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(0)">
-          <img src="weird-family-no1.png" alt="Weird Family Member No. 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="weird-family-no01-weird-dude.png" alt="Weird Dude" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
-          <h3 class="text-xl font-bold text-white mt-1">Weird Family No. 1</h3>
+          <h3 class="text-xl font-bold text-white mt-1">Weird Dude</h3>
           <p class="text-purple-200 text-sm mt-2 leading-relaxed">Original handcrafted character sculpt brought to life with custom details.</p>
         </div>
       </div>
 
-      <!-- Character 3 -->
+      <!-- Weird Lady -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(1)">
-          <img src="weird-family-no3.png" alt="Weird Family Member No. 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="weird-family-no02-weird-lady.png" alt="Weird Lady" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
-          <h3 class="text-xl font-bold text-white mt-1">Weird Family No. 3</h3>
+          <h3 class="text-xl font-bold text-white mt-1">Weird Lady</h3>
           <p class="text-purple-200 text-sm mt-2 leading-relaxed">Original handcrafted character sculpt brought to life with custom details.</p>
         </div>
       </div>
 
-      <!-- Character 6 -->
+      <!-- Weird Baby -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(2)">
-          <img src="weird-family-no6.png" alt="Weird Family Member No. 6" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="weird-family-no3-weird-baby.png" alt="Weird Baby" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
-          <h3 class="text-xl font-bold text-white mt-1">Weird Family No. 6</h3>
+          <h3 class="text-xl font-bold text-white mt-1">Weird Baby</h3>
+          <p class="text-purple-200 text-sm mt-2 leading-relaxed">Original handcrafted character sculpt brought to life with custom details.</p>
+        </div>
+      </div>
+
+      <!-- Watermelon -->
+      <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
+        <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(3)">
+          <img src="weird-family-no04-watermelon.png" alt="Watermelon" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
+          <h3 class="text-xl font-bold text-white mt-1">Watermelon</h3>
+          <p class="text-purple-200 text-sm mt-2 leading-relaxed">Original handcrafted character sculpt brought to life with custom details.</p>
+        </div>
+      </div>
+
+      <!-- Weird Statue -->
+      <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
+        <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(4)">
+          <img src="weird-family-no05 -weird-statue.png" alt="Weird Statue" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
+          <h3 class="text-xl font-bold text-white mt-1">Weird Statue</h3>
+          <p class="text-purple-200 text-sm mt-2 leading-relaxed">Original handcrafted character sculpt brought to life with custom details.</p>
+        </div>
+      </div>
+
+      <!-- Weird Statue (Different View) -->
+      <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
+        <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(5)">
+          <img src="weird-family-no-weird-statue-different-view....png" alt="Weird Statue (Different View)" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
+          <h3 class="text-xl font-bold text-white mt-1">Statue (Different View)</h3>
           <p class="text-purple-200 text-sm mt-2 leading-relaxed">Original handcrafted character sculpt brought to life with custom details.</p>
         </div>
       </div>
 
       <!-- Character 7 -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
-        <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(3)">
+        <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(6)">
           <img src="weird-family-no7.png" alt="Weird Family Member No. 7" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
@@ -133,7 +179,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Character 9 -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
-        <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(4)">
+        <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(7)">
           <img src="weird-family-no9.png" alt="Weird Family Member No. 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
@@ -157,7 +203,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
       
       <!-- Drawing 1 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(5)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(8)">
           <img src="angie-drawing-no1.jpeg" alt="Angie Drawing No. 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 1</h3>
@@ -166,7 +212,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 2 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(6)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(9)">
           <img src="angie-drawing-no2.jpeg" alt="Angie Drawing No. 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 2</h3>
@@ -175,7 +221,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 3 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(7)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(10)">
           <img src="angie-drawing-no3.jpeg" alt="Angie Drawing No. 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 3</h3>
@@ -184,7 +230,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 4 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(8)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(11)">
           <img src="angie-drawing-no4.jpeg" alt="Angie Drawing No. 4" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 4</h3>
@@ -193,7 +239,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 5 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(9)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(12)">
           <img src="Drawing No. 5.png" alt="Drawing No. 5" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 5</h3>
@@ -202,7 +248,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 6 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(10)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(13)">
           <img src="Drawing No. 6.png" alt="Drawing No. 6" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 6</h3>
@@ -211,7 +257,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 7 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(11)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(14)">
           <img src="Drawing No. 7.png" alt="Drawing No. 7" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 7</h3>
@@ -220,7 +266,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 8 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(12)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(15)">
           <img src="Drawing No. 8.png" alt="Drawing No. 8" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 8</h3>
@@ -229,7 +275,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 9 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(13)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(16)">
           <img src="Drawing No. 9.png" alt="Drawing No. 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 9</h3>
@@ -238,7 +284,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 10 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(14)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(17)">
           <img src="Drawing No. 10.png" alt="Drawing No. 10" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 10</h3>
@@ -247,7 +293,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 11 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(15)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(18)">
           <img src="Drawing No. 11.png" alt="Drawing No. 11" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 11</h3>
@@ -256,7 +302,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 12 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(16)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(19)">
           <img src="Drawing No. 12.png" alt="Drawing No. 12" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 12</h3>
@@ -265,7 +311,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 13 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(17)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(20)">
           <img src="Drawing No. 13.png" alt="Drawing No. 13" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 13</h3>
@@ -274,7 +320,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 14 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(18)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(21)">
           <img src="Drawing No. 14.png" alt="Drawing No. 14" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 14</h3>
@@ -283,7 +329,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 15 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(19)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(22)">
           <img src="Drawing No. 15.png" alt="Drawing No. 15" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 15</h3>
@@ -292,7 +338,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 16 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(20)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(23)">
           <img src="Drawing No. 16.png" alt="Drawing No. 16" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 16</h3>
@@ -301,7 +347,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 17 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(21)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(24)">
           <img src="Drawing No. 17.png" alt="Drawing No. 17" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 17</h3>
@@ -310,7 +356,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 18 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(22)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(25)">
           <img src="Drawing No. 18.png" alt="Drawing No. 18" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 18</h3>
@@ -319,7 +365,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 19 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(23)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(26)">
           <img src="Drawing No. 19.png" alt="Drawing No. 19" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 19</h3>
@@ -328,7 +374,7 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
 
       <!-- Drawing 20 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
-        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(24)">
+        <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(27)">
           <img src="Drawing No. 20.png" alt="Drawing No. 20" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 20</h3>
@@ -395,9 +441,12 @@ Here is the updated **`index.html`** incorporating your new drawings (**Drawing 
   <!-- Lightbox Script with Gallery Array & Arrows -->
   <script>
     const gallery = [
-      { src: 'weird-family-no1.png', title: 'Weird Family No. 1' },
-      { src: 'weird-family-no3.png', title: 'Weird Family No. 3' },
-      { src: 'weird-family-no6.png', title: 'Weird Family No. 6' },
+      { src: 'weird-family-no01-weird-dude.png', title: 'Weird Dude' },
+      { src: 'weird-family-no02-weird-lady.png', title: 'Weird Lady' },
+      { src: 'weird-family-no3-weird-baby.png', title: 'Weird Baby' },
+      { src: 'weird-family-no04-watermelon.png', title: 'Watermelon' },
+      { src: 'weird-family-no05 -weird-statue.png', title: 'Weird Statue' },
+      { src: 'weird-family-no-weird-statue-different-view....png', title: 'Statue (Different View)' },
       { src: 'weird-family-no7.png', title: 'Weird Family No. 7' },
       { src: 'weird-family-no9.png', title: 'Weird Family No. 9' },
       { src: 'angie-drawing-no1.jpeg', title: 'Drawing No. 1' },
