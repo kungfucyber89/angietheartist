@@ -26,7 +26,9 @@ const gallery = [
   { src: 'images/drawings/Drawing No. 19.png', title: 'Drawing No. 19' },
   { src: 'images/drawings/Drawing No. 20.png', title: 'Drawing No. 20' },
   { src: 'images/drawings/drawing-no21.jpg', title: 'Drawing No. 21' },
-  { src: 'images/drawings/drawing-no22.jpg', title: 'Drawing No. 22' }
+  { src: 'images/drawings/drawing-no22.jpg', title: 'Drawing No. 22' },
+  { src: 'images/drawings/drawing-no23.png', title: 'Drawing No. 23' },
+  { src: 'images/drawings/drawing-no24.png', title: 'Drawing No. 24' }
 ];
 
 let currentIndex = 0;
