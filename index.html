@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +6,7 @@
   <title>Angie's Creative Studio | Art, Music, 3D Design & Math</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
-    body { font-family: 'Plus Jakarta Sans', sans-serif; }
-    .glass-card { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.5); }
-  </style>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased selection:bg-purple-500 selection:text-white min-h-screen flex flex-col">
 
@@ -69,7 +64,7 @@
   <!-- FEATURED SERIES: The Weird Family -->
   <section id="weird-family" class="py-12 bg-purple-900 text-white rounded-3xl max-w-6xl mx-auto my-8 px-6 sm:px-10 shadow-xl relative overflow-hidden">
     <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-purple-700/30 rounded-full blur-3xl pointer-events-none"></div>
-    
+
     <div class="mb-10 text-center relative z-10">
       <span class="px-3 py-1 bg-purple-800 text-purple-200 text-xs font-bold rounded-full uppercase tracking-widest">Featured Character Series</span>
       <h2 class="text-4xl font-extrabold mt-3 tracking-tight">"The Weird Family"</h2>
@@ -80,11 +75,10 @@
 
     <!-- Character Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
-      
-      <!-- Weird Dude -->
+
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(0)">
-          <img src="weird-family-no01-weird-dude.png" alt="Weird Dude" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/weird-family/weird-family-no01-weird-dude.png" alt="Weird Dude" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
@@ -93,10 +87,9 @@
         </div>
       </div>
 
-      <!-- Weird Lady -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(1)">
-          <img src="weird-family-no02-weird-lady.png" alt="Weird Lady" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/weird-family/weird-family-no02-weird-lady.png" alt="Weird Lady" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
@@ -105,10 +98,9 @@
         </div>
       </div>
 
-      <!-- Weird Baby -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(2)">
-          <img src="weird-family-no3-weird-baby.png" alt="Weird Baby" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/weird-family/weird-family-no3-weird-baby.png" alt="Weird Baby" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
@@ -117,10 +109,9 @@
         </div>
       </div>
 
-      <!-- Watermelon -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(3)">
-          <img src="weird-family-no04-watermelon.png" alt="Watermelon" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/weird-family/weird-family-no04-watermelon.png" alt="Watermelon" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
@@ -129,10 +120,9 @@
         </div>
       </div>
 
-      <!-- Weird Statue -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(4)">
-          <img src="weird-family-no05 -weird-statue.png" alt="Weird Statue" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/weird-family/weird-family-no05 -weird-statue.png" alt="Weird Statue" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
@@ -141,10 +131,9 @@
         </div>
       </div>
 
-      <!-- Weird Statue (Different View) -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(5)">
-          <img src="weird-family-no-weird-statue-different-view.png" alt="Weird Statue (Different View)" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/weird-family/weird-family-no-weird-statue-different-view.png" alt="Weird Statue (Different View)" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
@@ -153,10 +142,9 @@
         </div>
       </div>
 
-      <!-- Character 7 -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(6)">
-          <img src="weird-family-no7.png" alt="Weird Family Member No. 7" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/weird-family/weird-family-no7.png" alt="Weird Family Member No. 7" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
@@ -165,10 +153,9 @@
         </div>
       </div>
 
-      <!-- Character 9 -->
       <div class="bg-purple-950/60 border border-purple-700/50 rounded-2xl overflow-hidden shadow-lg group">
         <div class="h-64 bg-purple-900/50 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(7)">
-          <img src="weird-family-no9.png" alt="Weird Family Member No. 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/weird-family/weird-family-no9.png" alt="Weird Family Member No. 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <div class="p-5">
           <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">Hand Sculpted & Digital 3D</span>
@@ -186,184 +173,164 @@
       <h2 class="text-3xl font-extrabold text-slate-900">Featured Art & Drawings</h2>
       <p class="text-slate-500 mt-1">A collection of original drawings and illustrations. Click any drawing to view it larger!</p>
     </div>
-    
+
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      
-      <!-- Drawing 1 -->
+
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(8)">
-          <img src="angie-drawing-no1.jpeg" alt="Angie Drawing No. 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/angie-drawing-no1.jpeg" alt="Angie Drawing No. 1" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 1</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 2 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(9)">
-          <img src="angie-drawing-no2.jpeg" alt="Angie Drawing No. 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/angie-drawing-no2.jpeg" alt="Angie Drawing No. 2" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 2</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 3 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(10)">
-          <img src="angie-drawing-no3.jpeg" alt="Angie Drawing No. 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/angie-drawing-no3.jpeg" alt="Angie Drawing No. 3" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 3</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 4 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(11)">
-          <img src="angie-drawing-no4.jpeg" alt="Angie Drawing No. 4" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/angie-drawing-no4.jpeg" alt="Angie Drawing No. 4" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 4</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 5 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(12)">
-          <img src="Drawing No. 5.png" alt="Drawing No. 5" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 5.png" alt="Drawing No. 5" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 5</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 6 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(13)">
-          <img src="Drawing No. 6.png" alt="Drawing No. 6" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 6.png" alt="Drawing No. 6" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 6</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 7 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(14)">
-          <img src="Drawing No. 7.png" alt="Drawing No. 7" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 7.png" alt="Drawing No. 7" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 7</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 8 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(15)">
-          <img src="Drawing No. 8.png" alt="Drawing No. 8" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 8.png" alt="Drawing No. 8" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 8</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 9 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(16)">
-          <img src="Drawing No. 9.png" alt="Drawing No. 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 9.png" alt="Drawing No. 9" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 9</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 10 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(17)">
-          <img src="Drawing No. 10.png" alt="Drawing No. 10" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 10.png" alt="Drawing No. 10" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 10</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 11 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(18)">
-          <img src="Drawing No. 11.png" alt="Drawing No. 11" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 11.png" alt="Drawing No. 11" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 11</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 12 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(19)">
-          <img src="Drawing No. 12.png" alt="Drawing No. 12" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 12.png" alt="Drawing No. 12" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 12</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 13 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(20)">
-          <img src="Drawing No. 13.png" alt="Drawing No. 13" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 13.png" alt="Drawing No. 13" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 13</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 14 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(21)">
-          <img src="Drawing No. 14.png" alt="Drawing No. 14" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 14.png" alt="Drawing No. 14" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 14</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 15 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(22)">
-          <img src="Drawing No. 15.png" alt="Drawing No. 15" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 15.png" alt="Drawing No. 15" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 15</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 16 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(23)">
-          <img src="Drawing No. 16.png" alt="Drawing No. 16" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 16.png" alt="Drawing No. 16" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 16</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 17 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(24)">
-          <img src="Drawing No. 17.png" alt="Drawing No. 17" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 17.png" alt="Drawing No. 17" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 17</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 18 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(25)">
-          <img src="Drawing No. 18.png" alt="Drawing No. 18" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 18.png" alt="Drawing No. 18" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 18</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 19 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(26)">
-          <img src="Drawing No. 19.png" alt="Drawing No. 19" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 19.png" alt="Drawing No. 19" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 19</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
       </div>
 
-      <!-- Drawing 20 -->
       <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200/80 p-4 group">
         <div class="h-60 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center cursor-pointer" onclick="openModal(27)">
-          <img src="Drawing No. 20.png" alt="Drawing No. 20" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+          <img src="images/drawings/Drawing No. 20.png" alt="Drawing No. 20" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
         </div>
         <h3 class="font-bold mt-4 text-slate-800">Drawing No. 20</h3>
         <p class="text-slate-500 text-xs mt-1">Original Illustration</p>
@@ -398,24 +365,20 @@
     </div>
   </section>
 
-  <!-- Fullscreen Image Lightbox Modal with Arrows -->
+  <!-- Fullscreen Image Lightbox Modal -->
   <div id="imageModal" class="fixed inset-0 z-50 hidden bg-black/95 flex items-center justify-center">
-    
-    <!-- Close Button -->
+
     <button onclick="closeModal()" class="absolute top-6 right-6 text-white text-4xl font-bold hover:text-purple-400 z-50 focus:outline-none">&times;</button>
-    
-    <!-- Previous Arrow -->
+
     <button onclick="prevImage(event)" class="absolute left-4 sm:left-8 text-white bg-white/10 hover:bg-white/30 rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold transition z-50 focus:outline-none">
       &#10094;
     </button>
 
-    <!-- Modal Content -->
     <div class="flex flex-col items-center justify-center max-w-4xl px-12" onclick="event.stopPropagation()">
       <img id="modalImg" class="max-w-full max-h-[75vh] rounded-xl shadow-2xl object-contain mb-4" alt="Enlarged View">
       <p id="modalCaption" class="text-white text-lg font-semibold tracking-wide text-center"></p>
     </div>
 
-    <!-- Next Arrow -->
     <button onclick="nextImage(event)" class="absolute right-4 sm:right-8 text-white bg-white/10 hover:bg-white/30 rounded-full w-12 h-12 flex items-center justify-center text-2xl font-bold transition z-50 focus:outline-none">
       &#10095;
     </button>
@@ -426,84 +389,7 @@
     <p>© 2026 Angie's Portfolio. Curated with care for future art & music endeavors.</p>
   </footer>
 
-  <!-- Lightbox Script with Gallery Array & Arrows -->
-  <script>
-    const gallery = [
-      { src: 'weird-family-no01-weird-dude.png', title: 'Weird Dude' },
-      { src: 'weird-family-no02-weird-lady.png', title: 'Weird Lady' },
-      { src: 'weird-family-no3-weird-baby.png', title: 'Weird Baby' },
-      { src: 'weird-family-no04-watermelon.png', title: 'Watermelon' },
-      { src: 'weird-family-no05 -weird-statue.png', title: 'Weird Statue' },
-      { src: 'weird-family-no-weird-statue-different-view.png', title: 'Statue (Different View)' },
-      { src: 'weird-family-no7.png', title: 'Weird Family No. 7' },
-      { src: 'weird-family-no9.png', title: 'Weird Family No. 9' },
-      { src: 'angie-drawing-no1.jpeg', title: 'Drawing No. 1' },
-      { src: 'angie-drawing-no2.jpeg', title: 'Drawing No. 2' },
-      { src: 'angie-drawing-no3.jpeg', title: 'Drawing No. 3' },
-      { src: 'angie-drawing-no4.jpeg', title: 'Drawing No. 4' },
-      { src: 'Drawing No. 5.png', title: 'Drawing No. 5' },
-      { src: 'Drawing No. 6.png', title: 'Drawing No. 6' },
-      { src: 'Drawing No. 7.png', title: 'Drawing No. 7' },
-      { src: 'Drawing No. 8.png', title: 'Drawing No. 8' },
-      { src: 'Drawing No. 9.png', title: 'Drawing No. 9' },
-      { src: 'Drawing No. 10.png', title: 'Drawing No. 10' },
-      { src: 'Drawing No. 11.png', title: 'Drawing No. 11' },
-      { src: 'Drawing No. 12.png', title: 'Drawing No. 12' },
-      { src: 'Drawing No. 13.png', title: 'Drawing No. 13' },
-      { src: 'Drawing No. 14.png', title: 'Drawing No. 14' },
-      { src: 'Drawing No. 15.png', title: 'Drawing No. 15' },
-      { src: 'Drawing No. 16.png', title: 'Drawing No. 16' },
-      { src: 'Drawing No. 17.png', title: 'Drawing No. 17' },
-      { src: 'Drawing No. 18.png', title: 'Drawing No. 18' },
-      { src: 'Drawing No. 19.png', title: 'Drawing No. 19' },
-      { src: 'Drawing No. 20.png', title: 'Drawing No. 20' }
-    ];
-
-    let currentIndex = 0;
-
-    function openModal(index) {
-      currentIndex = index;
-      updateModalContent();
-      document.getElementById('imageModal').classList.remove('hidden');
-    }
-
-    function closeModal() {
-      document.getElementById('imageModal').classList.add('hidden');
-    }
-
-    function nextImage(event) {
-      if (event) event.stopPropagation();
-      currentIndex = (currentIndex + 1) % gallery.length;
-      updateModalContent();
-    }
-
-    function prevImage(event) {
-      if (event) event.stopPropagation();
-      currentIndex = (currentIndex - 1 + gallery.length) % gallery.length;
-      updateModalContent();
-    }
-
-    function updateModalContent() {
-      const item = gallery[currentIndex];
-      document.getElementById('modalImg').src = item.src;
-      document.getElementById('modalCaption').textContent = item.title;
-    }
-
-    // Keyboard support: Left/Right arrows and Escape key
-    document.addEventListener('keydown', function(e) {
-      const modal = document.getElementById('imageModal');
-      if (!modal.classList.contains('hidden')) {
-        if (e.key === 'ArrowRight') nextImage();
-        if (e.key === 'ArrowLeft') prevImage();
-        if (e.key === 'Escape') closeModal();
-      }
-    });
-
-    // Close modal when clicking on the dark background overlay
-    document.getElementById('imageModal').addEventListener('click', closeModal);
-  </script>
+  <script src="js/gallery.js"></script>
 
 </body>
 </html>
-
-```
