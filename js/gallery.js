@@ -28,7 +28,12 @@ const gallery = [
   { src: 'images/drawings/drawing-no21.jpg', title: 'Drawing No. 21' },
   { src: 'images/drawings/drawing-no22.jpg', title: 'Drawing No. 22' },
   { src: 'images/drawings/drawing-no23.png', title: 'Drawing No. 23' },
-  { src: 'images/drawings/drawing-no24.png', title: 'Drawing No. 24' }
+  { src: 'images/drawings/drawing-no24.png', title: 'Drawing No. 24' },
+  { src: 'images/drawings/drawing-no25.jpg', title: 'Drawing No. 25' },
+  { src: 'images/drawings/drawing-no26.jpg', title: 'Drawing No. 26' },
+  { src: 'images/drawings/drawing-no27.jpg', title: 'Drawing No. 27' },
+  { src: 'images/drawings/drawing-no28.jpg', title: 'Drawing No. 28' },
+  { src: 'images/drawings/drawing-no29.jpg', title: 'Drawing No. 29' }
 ];
 
 let currentIndex = 0;
