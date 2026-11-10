@@ -5,6 +5,7 @@ const gallery = [
   { src: 'images/weird-family/weird-family-no04-watermelon.png', title: 'Watermelon' },
   { src: 'images/weird-family/weird-family-no05 -weird-statue.png', title: 'Weird Statue' },
   { src: 'images/weird-family/weird-family-no-weird-statue-different-view.png', title: 'Statue (Different View)' },
+  { src: 'images/weird-family/treehouse.png', title: 'Treehouse' },
   { src: 'images/drawings/angie-drawing-no1.jpeg', title: 'Drawing No. 1' },
   { src: 'images/drawings/angie-drawing-no2.jpeg', title: 'Drawing No. 2' },
   { src: 'images/drawings/angie-drawing-no3.jpeg', title: 'Drawing No. 3' },
