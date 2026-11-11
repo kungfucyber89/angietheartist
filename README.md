@@ -35,4 +35,4 @@ If port 8000 is already in use, pick another one (e.g. `python3 -m http.server 8
 
 ## Deployment
 - **GitHub Pages:** pushes to `main` publish to https://kungfucyber89.github.io/angietheartist/
-- **AWS:** `angiestudio.org` is served from a private S3 bucket through CloudFront with a free HTTPS certificate. See [docs/aws-deployment.md](docs/aws-deployment.md) for the full step-by-step setup, how to update the site, and AWS concepts explained.
+- **AWS:** `angiestudio.org` is served from a private S3 bucket through CloudFront with a free HTTPS certificate.
