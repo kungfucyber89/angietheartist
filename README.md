@@ -2,9 +2,7 @@
 
 Portfolio website for Angie — a 10-year-old creator from San Diego.
 
-🌐 **Website:** [https://angiestudio.org](https://angiestudio.org) *(launching soon on AWS: S3 + CloudFront)*
-
-🔗 **Current live site (GitHub Pages):** [https://kungfucyber89.github.io/angietheartist/](https://kungfucyber89.github.io/angietheartist/)
+🌐 **Live site:** [https://angiestudio.org](https://angiestudio.org)
 
 ## Features
 - The Weird Family — original hand-sculpted & 3D modeled character series
@@ -34,5 +32,4 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser. Refres
 If port 8000 is already in use, pick another one (e.g. `python3 -m http.server 8001`).
 
 ## Deployment
-- **GitHub Pages:** pushes to `main` publish to https://kungfucyber89.github.io/angietheartist/
-- **AWS:** `angiestudio.org` is served from a private S3 bucket through CloudFront with a free HTTPS certificate.
+- **AWS:** https://angiestudio.org is served from a private S3 bucket through CloudFront with a free HTTPS certificate (Route 53 DNS). After pushing changes, upload the changed files to S3 and invalidate the CloudFront cache.
